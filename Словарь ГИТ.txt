@@ -98,5 +98,12 @@ __________________________________  - 'doc/**/*.txt' - Игнорировать 
 HEAD detached at 7cd2707
 nothing to commit, working tree clean        ?????????????????????
 
+--> Решение 4 командами
+git branch temp
+git checkout temp
+git branch -f master temp
+git checkout master
+---<
+
 
 
