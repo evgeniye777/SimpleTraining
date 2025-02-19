@@ -1,0 +1,47 @@
+"CREATE DATABASE 'name';" - создание БД
+
+- Создание таблицы в подключеной БД:
+CREATE TABLE users (
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(255),
+    created_at TIMESTAMP
+);
+
+- Добавление записей:
+INSERT INTO users
+(first_name,  last_name, email, created_at)
+VALUES ('Lucienne', 'Feil',  'Trevion53@yahoo.com', '2022-06-14 18:31:05.296');
+
+- Редактирование записей:
+UPDATE users SET email = 'Casimer_Cronin@gmail.com' WHERE last_name = 'Romaguera';
+
+- Чтение всех записей:
+SELECT * FROM users;
+
+- Чтение записей с условием:
+SELECT * FROM users WHERE first_name = 'Ramiro';
+
+- Удаление записей:
+DELETE FROM users WHERE last_name = 'Romaguera';
+
+-Удаление таблицы:
+DROP TABLE users;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Запросы:
+-------------------------------------------------------------------------------------
+SELECT id, first_name, last_name FROM users ORDER BY first_name ASC LIMIT 5; Выведутся первые пять записей, после сортировки по алфавиту в прямом порядке(три столбца)
+
+ id | first_name | last_name
+----+------------+-----------
+ 16 | Abe        | Funk
+  8 | Abigale    | Turner
+ 34 | Alejandrin | Nicolas
+ 13 | Alfreda    | Hermann
+ 33 | Alfredo    | Sipes
+
+-------------------------------------------------------------------------------------
+
+
+ 
