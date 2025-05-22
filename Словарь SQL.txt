@@ -46,6 +46,9 @@ SELECT id, first_name, last_name FROM users ORDER BY first_name ASC LIMIT 5; В�
  - удаление всех записей в таблице с обнулением автоинкремента
 TRUNCATE TABLE app_st_persons_chorus63_sinch;
 
+ - изменение автоинкремента:
+ALTER TABLE app_st_persons_chorus63_sinch AUTO_INCREMENT = 55;
+
 - редактирование посещаемости вручную 
 UPDATE `app_st_persons_chorus63` SET `c46`='d',`c47`='d' WHERE date='2025.03.23'
 
