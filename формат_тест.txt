@@ -1,0 +1,44 @@
+[
+    {
+        "test": "тест 1",
+        "questions": [
+            {
+                "question": "вопрос 1",
+                "options": [
+                    {"option": "вариант 1", "correct": "0"},
+                    {"option": "вариант 2", "correct": "1"},
+                    {"option": "вариант 3", "correct": "0"}
+                ]
+            },
+            {
+                "question": "вопрос 2",
+                "options": [
+                    {"option": "вариант 1", "correct": "0"},
+                    {"option": "вариант 2", "correct": "1"},
+                    {"option": "вариант 3", "correct": "1"}
+                ]
+            }
+        ]
+    },
+    {
+        "test": "тест 2",
+        "questions": [
+            {
+                "question": "вопрос 1",
+                "options": [
+                    {"option": "вариант 1", "correct": "0"},
+                    {"option": "вариант 2", "correct": "1"},
+                    {"option": "вариант 3", "correct": "0"}
+                ]
+            },
+            {
+                "question": "вопрос 2",
+                "options": [
+                    {"option": "вариант 1", "correct": "0"},
+                    {"option": "вариант 2", "correct": "1"},
+                    {"option": "вариант 3", "correct": "1"}
+                ]
+            }
+        ]
+    }
+]
