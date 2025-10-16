@@ -1,0 +1,4 @@
+Создание проекта laravel в openServer (console) - "composer create-project laravel/laravel 'name_project'"
+
+Illuminate - дириктория в vendor\laravel\framework\src
+
